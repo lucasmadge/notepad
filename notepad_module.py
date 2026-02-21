@@ -1,3 +1,5 @@
+""" Module file containing functions used in notepad.py """
+
 import datetime
 import os
 import tkinter as tk
