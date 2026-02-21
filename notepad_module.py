@@ -45,7 +45,7 @@ def save_document(text_widget):
     content = text_widget.get("1.0", tk.END)
 
     with open(current_file, "w") as document:
-        file.write(content)
+        document.write(content)
 
 def saveAs_document(text_widget):
     global current_file
