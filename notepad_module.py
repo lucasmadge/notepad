@@ -100,12 +100,4 @@ def rename_document():
     os.rename(current_file, new_file_path)
 
     # update current file reference
-    current_file = new_file_path    
-
-    
-
-    
-
-        
-    
-        
+    current_file = new_file_path
