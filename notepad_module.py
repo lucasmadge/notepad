@@ -55,7 +55,7 @@ def saveAs_document(text_widget):
     # if no name is given, generate one based on the time
     if not file_path:
         document_name_time = datetime.datetime.now()
-        document_name = "Notebook_ " + document_name_time.strftime("%d-%m-%Y %H,%M")
+        document_name = "Notebook_ " + document_name_time.strftime("%d-%m-%Y_%H,%M")
 
         file_path = f"{document_name}.txt"
         counter = 1
